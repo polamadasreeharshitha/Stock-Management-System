@@ -1,0 +1,165 @@
+<html>
+<head>
+
+<title>WholeSale Management</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic|Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+  <link href="https://assets.mightymerchant.com/bootstrap_332/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://assets.mightymerchant.com/bootstrap_332/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="https://assets.mightymerchant.com/plug-ins/glyphicons-pro/css/glyphicons.css" rel="stylesheet">
+	<link href="https://assets.mightymerchant.com/plug-ins/glyphicons-pro/css/social.css" rel="stylesheet">
+	<link href="https://assets.mightymerchant.com/mm-css/mm-framework.css" rel="stylesheet">
+	<link href="https://www.mightymerchant.com/css/stylesheet-local-mighty.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+<body>
+<div class="mobilewrapper">
+  <header>
+	Stockwave
+    <div class="container hidden-print">
+      <div class="row">
+				<div class="col-sm-6 col-md-4">
+					<div id="logo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrQc6gPdXkE6oxVyQKdLa3YQ0QCG6eoylkiP3JvXDtKPZynNU21g" class="img-responsive" alt="Stockwave delivers everything you need to sell your products online including a flexible shopping cart, an easy to use site manager, credit card payment processing, PayPal payment integration - plus we top it off with personal service."></div>
+				</div>
+				<div class="col-sm-6 col-md-8 hidden-xs">
+					<div class="tagline"><p>Wholesale Purchases</p></div>
+				</div>
+			</div>
+		</div>
+  </header>
+	<nav class="navbar navbar-default" role="navigation">
+ 		<div class="container">
+			<div class="collapse navbar-collapse top-nav-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="home.html">Home</a></li>
+					<li class="dropdown"><a class="dropdown-toggle " href="b.html">Item List<b class="caret"></b></a></li>
+					<li class="dropdown"><a class="dropdown-toggle " href="a.html">Customers<b class="caret"></b></a></li>
+					<li class="dropdown"><a class="dropdown-toggle " href="c.html">Buyers<b class="caret"></b></a></li>
+					<li class="dropdown"><a class="dropdown-toggle " href="d.html">Purchasers<b class="caret"></b></a></li>
+					<li class="dropdown"><a class="dropdown-toggle " href="e.html">Stocks<b class="caret"></b></a></li>
+					<li><a href="insertuser.php">Add Member</a></li>
+					<li><a href="login.php">Logout</a></li>	
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container visible-xs hidden-print">
+		<div class="row">
+			<div class="col-xs-12 mvm collapse top-nav-search">
+
+				<form method="get" action="search" class="form" role="search">
+
+				<div class="input-group">
+      		
+						<input type="text" name="keywords" class="form-control" placeholder="Enter something to search for">
+      			<span class="input-group-btn">
+        		<button class="btn btn-default" type="submit">Search</button>
+      			</span>
+    		</div><!-- /input-group -->
+
+		    </form>
+				</div><!--/12-->
+			</div><!--/row-->
+		</div>
+		<div class="content">
+
+  <div class="container mm-columns mm-portfolio">
+	<div class="row">
+		<!-- Sidebar -->
+    <div class="col-sm-3 hidden-xs">
+       <h4>Features</h4>
+        <!-- Sidebar navigation -->
+         <nav>
+            <ul id="nav">
+							<li><a href="profit.php"><div style="margin-left: 30px;">Profit Per Month</div></a><div class="clearfix"></div></li>
+							<li><a href="frequentcus.php"> <div style="margin-left: 30px;">Frequent Customers</div></a><div class="clearfix"></div></li>
+							<li><a href="avastock.php"> <div style="margin-left: 30px;">Available Stock</div></a><div class="clearfix"></div></li>
+							<li><a href="cusdetail.php"> <div style="margin-left: 30px;">Purchased data of each Customer</div></a><div class="clearfix"></div></li>
+							<li><a href="date.php"> <div style="margin-left: 30px;">Total amount in Particular date</div></a><div class="clearfix"></div></li>
+
+			</ul>                                     
+         </nav>
+                        
+    </div><!--/3-->
+<div class="content">
+
+  <div class="container mm-columns mm-homepage">
+
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="whole.jpeg" style="width:100%">
+  <img class="mySlides" src="retail.png" style="width:100%">
+  <img class="mySlides" src="m3.jpeg" class="w3-round-xxlarge" alt="Norway" style="width:100%">
+<br><br><br><br>
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+  <div class="w3-content w3-section" style="max-width:500px">
+		<!--portfolio websites product_list.html-->
+  <h1 id="hsub" itemprop="name">Wholesale Management</h1>
+  <div class="blurb"><p><strong>Our Stores Are established for the easy access of Day-To-Day House-Hold items .</strong> Our Store Provides Variety of items with reasonable prices.</p></div>
+  </div>
+
+</div>
+</div>
+<div class="upperfooter" width="100%">
+  	<div class="container">
+  		<div class="row">
+  			<div align="center">
+  				<div class="footertagline">Visit Our Store And Make Your Day A Good Day</div>
+  				<a href="cpage_706" class="btn btn-lg btn-primary btn-special"><div class="top">Let Us Know</div><div class="bottom">Your Needs</div></a>
+  			</div>
+  			
+  		</div>
+  	</div>
+	</div>
+  <footer style="width:100%">
+  	<div id="footer">
+    	<div class="container">
+        <div class="row">
+          <div align="center">
+						<h5>Contact Us</h5>
+						<p>Stockwave</p>
+						<p>19-76 Garden Ave,Hyderabad</p>
+						<p>Local: <a href="tel:9764321632">9764321632</a> &nbsp; Toll-Free: <a href="tel:888-888-8888">888-888-8888</a></p>
+						<div class="socialicons2 hidden-print">
+    				<a href="https://www.facebook.com/herowebmarketing" target="_blank"><span class="social facebook"></span></a><a href="https://twitter.com/heroweb" target="_blank"><span class="social twitter"></span></a>
+						</div>
+
+						<!--<form method="get" action="search" class="form hidden-print hidden-xs">
+					    	<input type="hidden" name="noheadings" value="1">
+							<div class="input-group">
+						    <input type="text" name="keywords" class="form-control" placeholder="Enter something to search for">
+							<span class="input-group-btn">
+              <button class="btn btn-default btn-sm" type="submit">Search</button>
+							</span>
+						</div>
+          </form>-->
+          </div>
+          </div>
+      </div>
+         </div><!--/footer-->
+  </footer>
+  <!-- Footer ends -->
+  <!-- Scroll to top -->
+  <span class="totop"><a href="#"><span class="glyphicon glyphicon-chevron-up"></span></a></span>
+</div>
+</body>
+</html>

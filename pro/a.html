@@ -1,0 +1,166 @@
+<html>
+<head>
+
+<title>WholeSale Management</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic|Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+  <link href="https://assets.mightymerchant.com/bootstrap_332/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://assets.mightymerchant.com/bootstrap_332/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="https://assets.mightymerchant.com/plug-ins/glyphicons-pro/css/glyphicons.css" rel="stylesheet">
+	<link href="https://assets.mightymerchant.com/plug-ins/glyphicons-pro/css/social.css" rel="stylesheet">
+	<link href="https://assets.mightymerchant.com/mm-css/mm-framework.css" rel="stylesheet">
+	<link href="https://www.mightymerchant.com/css/stylesheet-local-mighty.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="mobilewrapper">
+
+<!-- Header starts -->
+ <header>
+	Stockwave
+    <div class="container hidden-print">
+      <div class="row">
+				<div class="col-sm-6 col-md-4">
+					<div id="logo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrQc6gPdXkE6oxVyQKdLa3YQ0QCG6eoylkiP3JvXDtKPZynNU21g" class="img-responsive" alt="Stockwave delivers everything you need to sell your products online including a flexible shopping cart, an easy to use site manager, credit card payment processing, PayPal payment integration - plus we top it off with personal service."></div>
+				</div>
+				<div class="col-sm-6 col-md-8 hidden-xs">
+					<div class="tagline"><p>Wholesale Purchases</p></div>
+				</div>
+			</div>
+		</div>
+  </header>
+  <!-- Header ends -->
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-default" role="navigation">
+ 		<div class="container">
+			<div class="collapse navbar-collapse top-nav-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="home.html">Home</a></li>
+					<li class="dropdown"><a class="dropdown-toggle " href="b.html">ItemList<b class="caret"></b></a></li>
+					<li class="dropdown"><a class="dropdown-toggle " href="a.html">Customers<b class="caret"></b></a></li>
+					<li class="dropdown"><a class="dropdown-toggle " href="c.html">Suppliers<b class="caret"></b></a></li>
+					<li class="dropdown"><a class="dropdown-toggle " href="d.html">Purchasers<b class="caret"></b></a></li>
+					<li class="dropdown"><a class="dropdown-toggle " href="e.html">Stocks<b class="caret"></b></a></li>
+					<li><a href="insertuser.php">Add Member</a></li>
+					<li><a href="login.php">Logout</a></li>	
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<div class="container visible-xs hidden-print">
+		<div class="row">
+			<div class="col-xs-12 mvm collapse top-nav-search">
+
+				<form method="get" action="search" class="form" role="search">
+
+				<div class="input-group">
+      		
+						<input type="text" name="keywords" class="form-control" placeholder="Enter something to search for">
+      			<span class="input-group-btn">
+        		<button class="btn btn-default" type="submit">Search</button>
+      			</span>
+    		</div><!-- /input-group -->
+		    </form>
+				</div><!--/12-->
+			</div><!--/row-->
+		</div>
+
+
+
+	<div class="content">
+
+  <div class="container mm-columns mm-portfolio">
+	<div class="row">
+		<!-- Sidebar -->
+    <div class="col-sm-3 hidden-xs">
+       <h4>Changes Can Be Done In Customer Details</h4>
+        <!-- Sidebar navigation -->
+         <nav>
+            <ul id="nav">
+							<li><a href="selectcus.php"><div style="margin-left: 30px;">Customer List</div></a><div class="clearfix"></div></li>
+							<li><a href="cusinfo.php"> <div style="margin-left: 30px;">Add Customers</div></a><div class="clearfix"></div></li>
+							<li><a href="updatecusaddr.php"> <div style="margin-left: 30px;">Update Customer Address</div></a><div class="clearfix"></div></li>
+							<li><a href="updatecustomermobile.php"> <div style="margin-left: 30px;">Update Customer Mobile Number</div></a><div class="clearfix"></div></li>
+			</ul>                                     
+         </nav>
+    </div><!--/3-->
+		<div class="col-sm-9">
+		<!--portfolio websites product_list.html-->
+  <h1 id="hsub" itemprop="name">Details of Customers</h1>
+  <div class="blurb"><p><strong>Our Stores Are established for the easy access of Day-To-Day House-Hold items .</strong> Our Store Provides Variety of items with reasonable prices.</p></div>
+  <div class="row items" itemscope itemtype="http://schema.org/Service">
+  <!--portfolio websites product_cell.html-->
+<div class="col-sm-6">
+	<div class="item">
+  	
+  	<div class="item-image">
+  			<img src="customer.jpeg" alt="Image 4x4 Works" class="img-responsive" >
+  	</div>
+<div class="clearfix"></div>
+	</div>
+</div>
+
+  </div>  	
+	<ul class="pagination"><li class="disabled"><a href="#">&laquo;</a></li>
+		<li class="disabled"><a href="#" class="active">1</a></li>
+		<li><a href = "cusinfo.php">2</a></li>
+		<li><a href = "updatecusaddr.php">3</a></li>
+		<li><a href = "updatecustomermobile.php">4</a></li>
+		<li><a href = "#">&raquo;</a></li></ul>
+<div class="sblurb"></div> 	
+
+		</div><!--/9-->
+	</div><!--/row-->
+</div><!--/container-->
+
+
+	</div>
+
+  <!-- Footer starts -->
+	<div class="upperfooter">
+  	<div class="container">
+  		<div class="row">
+  			<div align="center">
+  				<div class="footertagline">Visit Our Store And Make Your Day A Good Day</div>
+  				<a href="cpage_706" class="btn btn-lg btn-primary btn-special"><div class="top">Let Us Know</div><div class="bottom">Your Needs</div></a>
+  			</div>
+  			
+  		</div>
+  	</div>
+	</div>
+  <footer>
+  	<div id="footer">
+    	<div class="container">
+        <div class="row">
+          <div align="center">
+						<h5>Contact Us</h5>
+						<p>Stockwave</p>
+						<p>19-76 Garden Ave,Hyderabad</p>
+						<p>Local: <a href="tel:9764321632">9764321632</a> &nbsp; Toll-Free: <a href="tel:888-888-8888">888-888-8888</a></p>
+						<div class="socialicons2 hidden-print">
+    				<a href="https://www.facebook.com/herowebmarketing" target="_blank"><span class="social facebook"></span></a><a href="https://twitter.com/heroweb" target="_blank"><span class="social twitter"></span></a>
+						</div>
+
+						<!--<form method="get" action="search" class="form hidden-print hidden-xs">
+					    	<input type="hidden" name="noheadings" value="1">
+							<div class="input-group">
+						    <input type="text" name="keywords" class="form-control" placeholder="Enter something to search for">
+							<span class="input-group-btn">
+              <button class="btn btn-default btn-sm" type="submit">Search</button>
+							</span>
+						</div>
+          </form>-->
+          </div>
+      </div>
+         	</div>
+         </div><!--/footer-->
+  </footer>
+  <!-- Footer ends -->
+  <!-- Scroll to top -->
+  <span class="totop"><a href="#"><span class="glyphicon glyphicon-chevron-up"></span></a></span>
+</div><!--/mobilewrapper-->
+
+</body>
+</html>
